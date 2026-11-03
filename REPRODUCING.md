@@ -43,10 +43,12 @@ Repeat the second command for lambda=.5,1,2,5 and cap=.01,.05,.10,.20, and repea
 
 ## Figure and saved transfer results
 
-Figure 3 sources are in `figures/`. Run `python figures/generate_capability_boundary.py`, then compile `figures/fig_capability_boundary.tex` with pdflatex. The generator renders the included input CSV.
+Figure 3 sources are in `figures/`; `reference_results/figure3_macro.csv` contains the corresponding unrounded saved evaluation summaries. Run `python figures/generate_capability_boundary.py`, then compile `figures/fig_capability_boundary.tex` with pdflatex. The generator renders the included input CSV.
+
+`reference_results/oracle_weighted.csv` records the secondary oracle-weighted cross-node aggregates; `supervised_per_seed_folds.csv` supplies their per-dataset and per-seed inputs.
 
 `reference_results/lodfo_per_fold.csv` and `lodfo_summary.csv` provide saved transfer results. These files provide the transfer-table inputs. LODFO model training and fine-tuned checkpoints are outside this package.
 
 ## Dataset metadata
 
-The release manifest records the SHA-256 of the uploaded inner `TraceTriage.zip`. Kaggle may wrap this file in a separate download archive.
+The release manifest records the SHA-256 of the local source `TraceTriage.zip`. Kaggle download archives and hosted folder layouts have separate identities. Each Kaggle release has a core-plus-RAI Croissant file in `metadata/`.

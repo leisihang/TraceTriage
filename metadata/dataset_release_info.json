@@ -15,5 +15,5 @@
     "size_bytes": 13492308722,
     "sha256": "b2ff6e71d98c8d721274005dee49eacf91b527da692d431f4e0211d5c9c6c986"
   },
-  "notes": "The SHA-256 identifies the uploaded inner TraceTriage.zip. Kaggle download wrappers have separate checksums."
+  "notes": "The SHA-256 identifies the local source TraceTriage.zip used for data identity verification. Kaggle download wrappers and hosted folder layouts have separate identities."
 }

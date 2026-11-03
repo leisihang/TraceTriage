@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Figure 3 from fig_capability_boundary_data.csv."""
+"""Generate the capability-boundary figure from its accompanying CSV."""
 from __future__ import annotations
 
 import csv
@@ -20,13 +20,13 @@ def coord(row: dict[str, str]) -> str:
 
 
 def line(points: list[str], color: str) -> str:
-    return f"\\addplot+[no marks, color={color}!58, line width=0.65pt] coordinates {{{' '.join(points)}}};"
+    return f"\\addplot[no marks, color={color}!58, line width=0.65pt] coordinates {{{' '.join(points)}}};"
 
 
 def marker(row: dict[str, str], color: str, shape: str, fill: str, size: str) -> str:
     draw = "black!65" if fill == color else color
     return (
-        f"\\addplot+[only marks, mark={shape}, mark size={size}, color={color}, "
+        f"\\addplot[only marks, mark={shape}, mark size={size}, color={color}, "
         f"fill={fill}, mark options={{line width=0.45pt, draw={draw}}}] coordinates {{{coord(row)}}};"
     )
 
@@ -107,7 +107,7 @@ def generate(rows: dict[str, dict[str, str]]) -> str:
             draw = color if regime == "LODO" else "black!65"
             row = regime_rows[(family, regime)]
             out.append(
-                f"\\addplot+[only marks, mark={shape}, mark size={size}, color={color}, fill={fill}, "
+                f"\\addplot[only marks, mark={shape}, mark size={size}, color={color}, fill={fill}, "
                 f"mark options={{line width={0.85 if regime == 'LODO' else 0.45:.2f}pt, draw={draw}}}] coordinates {{{coord(row)}}};"
             )
 
@@ -120,9 +120,9 @@ def generate(rows: dict[str, dict[str, str]]) -> str:
         r"\node[font=\scriptsize, anchor=west, text=textC] at (axis cs:0.420,108) {XGBoost};",
         r"\draw[hgbC, line width=0.9pt] (axis cs:0.68,108) -- (axis cs:0.735,108);",
         r"\node[font=\scriptsize, anchor=west, text=textC] at (axis cs:0.750,108) {HGB};",
-        r"\addplot+[only marks, mark=*, mark size=2.2pt, color=textC, fill=textC] coordinates {(0.35,96)};",
-        r"\addplot+[only marks, mark=triangle*, mark size=2.7pt, color=textC, fill=white, mark options={line width=0.70pt, draw=textC}] coordinates {(0.35,88)};",
-        r"\addplot+[only marks, mark=square*, mark size=2.2pt, color=textC, fill=textC] coordinates {(0.35,80)};",
+        r"\addplot[only marks, mark=*, mark size=2.2pt, color=textC, fill=textC] coordinates {(0.35,96)};",
+        r"\addplot[only marks, mark=triangle*, mark size=2.7pt, color=textC, fill=white, mark options={line width=0.70pt, draw=textC}] coordinates {(0.35,88)};",
+        r"\addplot[only marks, mark=square*, mark size=2.2pt, color=textC, fill=textC] coordinates {(0.35,80)};",
         r"\node[font=\scriptsize, anchor=west, text=textC] at (axis cs:0.365,96) {single};",
         r"\node[font=\scriptsize, anchor=west, text=textC] at (axis cs:0.365,88) {LODO};",
         r"\node[font=\scriptsize, anchor=west, text=textC] at (axis cs:0.365,80) {cross-node};",

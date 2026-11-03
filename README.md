@@ -34,6 +34,6 @@ LODFO per-fold results and summaries are in `reference_results/`. Qwen sensitivi
 
 ## Release metadata
 
-`metadata/dataset_release_info.json` records dataset URLs, authors, license and the SHA-256 digest of the uploaded `TraceTriage.zip`. Dataset limitations, provenance and intended uses are described in `metadata/responsible_ai_metadata.md`.
+`metadata/dataset_release_info.json` records dataset URLs, authors, license and the SHA-256 digest of the local source archive `TraceTriage.zip`. `metadata/tracetriage-full-croissant.json` and `metadata/tracetriage-light-croissant.json` contain the Kaggle-generated core schema extended with Responsible AI metadata. Dataset limitations, provenance and intended uses are described in `metadata/responsible_ai_metadata.md`.
 
 The code and frozen inputs contain no provider keys or raw API request logs. Keep credentials outside the repository. See `correction_note.md` for the reporting corrections described in the paper.

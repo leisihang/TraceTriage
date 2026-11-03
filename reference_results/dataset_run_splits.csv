@@ -1,0 +1,12 @@
+dataset,display,train_runs,train_success,train_failure,val_runs,val_success,val_failure,test_runs,test_success,test_failure
+asap7_aes_cipher_top,A7-AES,2394,1152,1242,311,155,156,307,146,161
+asap7_gcd,A7-GCD,2336,1566,770,289,185,104,312,217,95
+asap7_ibex_core,A7-IBEX,2551,1123,1428,311,138,173,331,147,184
+asap7_jpeg_encoder,A7-JPEG,2482,973,1509,277,105,172,328,132,196
+asap7_picorv32,A7-PICO,2459,1223,1236,342,182,160,309,160,149
+sky130hd_aes_cipher_top,S130-AES,2371,407,1964,296,43,253,279,48,231
+sky130hd_gcd,S130-GCD,2041,1115,926,271,137,134,270,143,127
+sky130hd_ibex_core,S130-IBEX,2466,368,2098,298,48,250,307,46,261
+sky130hd_jpeg_encoder,S130-JPEG,2452,864,1588,287,96,191,306,117,189
+sky130hd_picorv32,S130-PICO,3619,2066,1553,503,267,236,467,252,215
+__all__,Total,25171,10857,14314,3185,1356,1829,3216,1408,1808
