@@ -1,0 +1,48 @@
+{
+  "lambda_sweep": [
+    {
+      "lambda_false_stop": 0.5,
+      "n": 963.0,
+      "oracle_s": 0.0,
+      "recall": 1.0,
+      "fsr": 0.0,
+      "net_s": -0.01845288702419826,
+      "stop_threshold": 0.01,
+      "headroom": 0.0,
+      "inference_cost_test": 0.01845288702419826
+    },
+    {
+      "lambda_false_stop": 1.0,
+      "n": 963.0,
+      "oracle_s": 0.0,
+      "recall": 1.0,
+      "fsr": 0.0,
+      "net_s": -0.01845288702419826,
+      "stop_threshold": 0.01,
+      "headroom": 0.0,
+      "inference_cost_test": 0.01845288702419826
+    },
+    {
+      "lambda_false_stop": 2.0,
+      "n": 963.0,
+      "oracle_s": 0.0,
+      "recall": 1.0,
+      "fsr": 0.0,
+      "net_s": -0.01845288702419826,
+      "stop_threshold": 0.01,
+      "headroom": 0.0,
+      "inference_cost_test": 0.01845288702419826
+    },
+    {
+      "lambda_false_stop": 5.0,
+      "n": 963.0,
+      "oracle_s": 0.0,
+      "recall": 1.0,
+      "fsr": 0.0,
+      "net_s": -0.01845288702419826,
+      "stop_threshold": 0.01,
+      "headroom": 0.0,
+      "inference_cost_test": 0.01845288702419826
+    }
+  ]
+}

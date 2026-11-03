@@ -1,0 +1,48 @@
+{
+  "lambda_sweep": [
+    {
+      "lambda_false_stop": 0.5,
+      "n": 832.0,
+      "oracle_s": 9.25,
+      "recall": 1.0,
+      "fsr": 0.0,
+      "net_s": 9.231547112975802,
+      "stop_threshold": 0.01,
+      "headroom": 0.9980050932946813,
+      "inference_cost_test": 0.01845288702419826
+    },
+    {
+      "lambda_false_stop": 1.0,
+      "n": 832.0,
+      "oracle_s": 9.25,
+      "recall": 1.0,
+      "fsr": 0.0,
+      "net_s": 9.231547112975802,
+      "stop_threshold": 0.01,
+      "headroom": 0.9980050932946813,
+      "inference_cost_test": 0.01845288702419826
+    },
+    {
+      "lambda_false_stop": 2.0,
+      "n": 832.0,
+      "oracle_s": 9.25,
+      "recall": 1.0,
+      "fsr": 0.0,
+      "net_s": 9.231547112975802,
+      "stop_threshold": 0.01,
+      "headroom": 0.9980050932946813,
+      "inference_cost_test": 0.01845288702419826
+    },
+    {
+      "lambda_false_stop": 5.0,
+      "n": 832.0,
+      "oracle_s": 9.25,
+      "recall": 1.0,
+      "fsr": 0.0,
+      "net_s": 9.231547112975802,
+      "stop_threshold": 0.01,
+      "headroom": 0.9980050932946813,
+      "inference_cost_test": 0.01845288702419826
+    }
+  ]
+}

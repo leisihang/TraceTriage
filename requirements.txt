@@ -1,0 +1,14 @@
+# Reviewer-safe smoke and package verification use only the Python standard
+# library. Python >= 3.9 is recommended.
+
+# Optional full baselines:
+# scikit-learn
+# xgboost
+# numpy
+
+# Optional Qwen experiments:
+# torch
+# transformers
+# datasets
+# accelerate
+# peft

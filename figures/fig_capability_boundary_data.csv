@@ -1,0 +1,20 @@
+label,family,protocol,source,accuracy,frs,fsr,net_charged_s,net_no_api_latency_s,headroom
+Qwen zero-shot,Qwen,zero-shot,draft/baseline_qwen/tables/all_results_mean_std.csv,0.4567,0.0482,0.0063,0.14,0.14,0.005
+Qwen single-domain,Qwen,single-domain,experiment_result/fixed_qwen_track1_bundle/single_splitfiles_3seeds,0.9940,0.9805,0.0002,68.75,68.77,0.587
+Qwen LODO,Qwen,LODO,experiment_result/fixed_qwen_track1_bundle/lodo_splitfiles_3seeds,0.9932,0.9522,0.0014,68.82,68.84,0.581
+Qwen cross-node LODO,Qwen,cross-node LODO,experiment_result/fixed_qwen_track1_bundle/crossnode_splitfiles_3seeds,0.9902,0.9458,0.0003,67.12,67.14,0.574
+LogReg single-domain,Tabular,single-domain,draft/experiment_result_backup_20260503_v2/08_recent_aggregates_tmp_20260501_20260502/from_tmp/baseline_same_input_macro_20260501.csv,0.9819,0.9800,0.0250,83.27,83.27,0.531
+LogReg LODO,Tabular,LODO,draft/experiment_result_backup_20260503_v2/08_recent_aggregates_tmp_20260501_20260502/from_tmp/baseline_same_input_macro_20260501.csv,0.8610,0.8737,0.0235,72.18,72.18,0.375
+LogReg cross-node LODO,Tabular,cross-node LODO,draft/baseline_qwen/tables/all_results_mean_std.csv,0.8100,0.3667,0.0175,20.40,20.40,0.189
+XGBoost single-domain,Tabular,single-domain,draft/experiment_result_backup_20260503_v2/08_recent_aggregates_tmp_20260501_20260502/from_tmp/baseline_same_input_macro_20260501.csv,0.9956,0.9894,0.0046,112.05,112.05,0.711
+XGBoost LODO,Tabular,LODO,draft/experiment_result_backup_20260503_v2/08_recent_aggregates_tmp_20260501_20260502/from_tmp/baseline_same_input_macro_20260501.csv,0.9568,0.8859,0.0014,64.26,64.26,0.525
+XGBoost cross-node LODO,Tabular,cross-node LODO,draft/baseline_qwen/tables/all_results_mean_std.csv,0.7142,0.4992,0.0003,24.24,24.24,0.396
+HGB single-domain,Tabular,single-domain,draft/experiment_result_backup_20260503_v2/08_recent_aggregates_tmp_20260501_20260502/from_tmp/baseline_same_input_macro_20260501.csv,0.9966,0.9938,0.0017,114.95,114.95,0.753
+HGB LODO,Tabular,LODO,draft/experiment_result_backup_20260503_v2/08_recent_aggregates_tmp_20260501_20260502/from_tmp/baseline_same_input_macro_20260501.csv,0.9892,0.9849,0.0012,69.33,69.33,0.628
+HGB cross-node LODO,Tabular,cross-node LODO,draft/baseline_qwen/tables/all_results_mean_std.csv,0.9922,0.9496,0.0027,61.22,61.22,0.577
+Claude Opus 4.7 weak,Hosted LLM,validation-thresholded weak,draft/llm_api/claude-opus-4.7/weak,0.8041,0.2759,0.0148,2.065,5.161,-0.069
+Claude Opus 4.7 strong,Hosted LLM,validation-thresholded strong,draft/llm_api/claude-opus-4.7/strong,0.8815,0.4231,0.0162,-8.413,-3.781,-0.191
+GPT-5.5-high weak,Hosted LLM,validation-thresholded weak,draft/llm_api/gpt-5.5-high/weak,0.8156,0.7736,0.0245,-11.812,-2.728,-0.209
+GPT-5.5-high strong,Hosted LLM,validation-thresholded strong,draft/llm_api/gpt-5.5-high/strong,0.8411,0.6051,0.0285,-2.431,7.174,-0.266
+DeepSeek-v4-flash weak,Hosted LLM,validation-thresholded weak,draft/llm_api/deepseek-v4-flash/weak,0.7952,0.2147,0.0129,-7.034,-0.544,-0.186
+DeepSeek-v4-flash strong,Hosted LLM,validation-thresholded strong,draft/llm_api/deepseek-v4-flash/strong,0.8106,0.2901,0.0138,-8.108,-1.491,-0.167

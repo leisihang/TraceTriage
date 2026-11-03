@@ -1,0 +1,29 @@
+model,policy,mu,net_prime_mean,net_prime_std,seed42,seed123,seed3407,role,missed_failure_r_per_prefix
+Qwen cross-node,"frozen paper lambda=1, cap=.10 thresholds",0.0,67.11585142748324,3.038411460353356,68.84574883924844,68.89429739719915,63.6075080460021,supervised,127.48395763678938
+Qwen cross-node,"frozen paper lambda=1, cap=.10 thresholds",0.25,35.2448620182859,3.8014743097090427,37.41532520931754,37.46387376726825,30.855387078271917,supervised,127.48395763678938
+Qwen cross-node,"frozen paper lambda=1, cap=.10 thresholds",0.5,3.373872609088551,4.564543666952126,5.984901579386602,6.033450137337323,-1.8967338894582695,supervised,127.48395763678938
+Qwen cross-node,"frozen paper lambda=1, cap=.10 thresholds",1.0,-60.36810620930613,6.0906921210379785,-56.875945680475226,-56.82739712252451,-67.40097582491865,supervised,127.48395763678938
+Claude Opus 4.7 weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.0,2.065126796839833,NA (one saved run),,,,hosted,180.97232011928978
+Claude Opus 4.7 weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.25,-43.17795323298261,NA (one saved run),,,,hosted,180.97232011928978
+Claude Opus 4.7 weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.5,-88.42103326280505,NA (one saved run),,,,hosted,180.97232011928978
+Claude Opus 4.7 weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",1.0,-178.90719332244993,NA (one saved run),,,,hosted,180.97232011928978
+Claude Opus 4.7 strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.0,-8.413174767320374,NA (one saved run),,,,hosted,189.39481515887522
+Claude Opus 4.7 strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.25,-55.761878557039175,NA (one saved run),,,,hosted,189.39481515887522
+Claude Opus 4.7 strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.5,-103.11058234675798,NA (one saved run),,,,hosted,189.39481515887522
+Claude Opus 4.7 strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",1.0,-197.8079899261956,NA (one saved run),,,,hosted,189.39481515887522
+GPT-5.5-high weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.0,-11.811949602056124,NA (one saved run),,,,hosted,179.55449340882936
+GPT-5.5-high weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.25,-56.700572954263464,NA (one saved run),,,,hosted,179.55449340882936
+GPT-5.5-high weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.5,-101.58919630647081,NA (one saved run),,,,hosted,179.55449340882936
+GPT-5.5-high weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",1.0,-191.3664430108855,NA (one saved run),,,,hosted,179.55449340882936
+GPT-5.5-high strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.0,-2.4307970512938923,NA (one saved run),,,,hosted,179.324270737871
+GPT-5.5-high strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.25,-47.26186473576164,NA (one saved run),,,,hosted,179.324270737871
+GPT-5.5-high strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.5,-92.09293242022939,NA (one saved run),,,,hosted,179.324270737871
+GPT-5.5-high strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",1.0,-181.75506778916488,NA (one saved run),,,,hosted,179.324270737871
+DeepSeek-v4-flash weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.0,-7.033694901421124,NA (one saved run),,,,hosted,191.42331716852192
+DeepSeek-v4-flash weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.25,-54.88952419355161,NA (one saved run),,,,hosted,191.42331716852192
+DeepSeek-v4-flash weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.5,-102.7453534856821,NA (one saved run),,,,hosted,191.42331716852192
+DeepSeek-v4-flash weak,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",1.0,-198.45701206994306,NA (one saved run),,,,hosted,191.42331716852192
+DeepSeek-v4-flash strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.0,-8.107614731208717,NA (one saved run),,,,hosted,189.3166469439519
+DeepSeek-v4-flash strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.25,-55.436776467196694,NA (one saved run),,,,hosted,189.3166469439519
+DeepSeek-v4-flash strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",0.5,-102.76593820318467,NA (one saved run),,,,hosted,189.3166469439519
+DeepSeek-v4-flash strong,"saved per-dataset val-selected lambda=1, cap=.10 thresholds",1.0,-197.42426167516064,NA (one saved run),,,,hosted,189.3166469439519

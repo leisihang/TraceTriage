@@ -1,0 +1,5 @@
+model,lambda,cap,published_net,recomputed_net,difference,tolerance,status,source
+qwen,1.0,0.1,67.12,67.11585142748324,-0.0041485725167689225,1.0,PASS,canonical_qwen_r1_grid
+hgb,1.0,0.1,61.22,61.21827667195025,-0.0017233280497492842,1.0,PASS,run_track1_baselines.py canonical cross-node harness
+xgboost,1.0,0.1,24.24,24.24042718739176,0.00042718739176095255,1.0,PASS,run_track1_baselines.py canonical cross-node harness
+logreg,1.0,0.1,20.4,20.401639887374508,0.0016398873745089304,1.0,PASS,run_track1_baselines.py canonical cross-node harness
